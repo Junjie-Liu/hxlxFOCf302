@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="4" />
+            </JLink>
+            <ElfFile Name="C:\Users\comec\Desktop\hxlx\hxlxFOCf302 - 20180526\MDK-ARM\Objects\FOCf302.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="200000" />
+            </Scope>
+            <Trigger>
+                <Options Level="9000.000000" Symbol="PositionCMD" On="1" Auto="0" Rise="1" Fall="1" />
+            </Trigger>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="GEAR_MAGpos" Address="0x20000260" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="176" YMinSampled="-9268" YMaxSampled="20624" YAvgSampled="1394" Offset="4" ShowInGraph="1" YOffset="300" IsAutoConfig="0" YResolution="5000" MaxValue="30000" File="..\Src\foc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="PositionCMD" Address="0x2000027C" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="0" YMaxSampled="20000" YAvgSampled="1403" Offset="8" ShowInGraph="1" YOffset="300" IsAutoConfig="0" YResolution="5000" MaxValue="30000" File="..\Src\foc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="GEAR_MAGvelLpf" Address="0x2000024C" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-119" YMaxSampled="108" YAvgSampled="0" Offset="12" ShowInGraph="1" YOffset="300" IsAutoConfig="0" YResolution="100" MaxValue="200" File="..\Src\foc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="IqLpf" Address="0x200001DC" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="100" GraphColorBlue="0" YMinSampled="-31137" YMaxSampled="35414" YAvgSampled="-379" Offset="16" ShowInGraph="1" YOffset="300" IsAutoConfig="0" YResolution="10000" MaxValue="4000" File="..\Src\foc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="VelocityCMD" Address="0x20000278" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="128" YMinSampled="-800" YMaxSampled="800" YAvgSampled="0" Offset="20" ShowInGraph="0" YOffset="280" IsAutoConfig="1" YResolution="500" MaxValue="1000" File="..\Src\foc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="GEAR_MAGaccLpf" Address="0x20000258" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="-1" YMaxSampled="1" YAvgSampled="0" Offset="24" ShowInGraph="0" YOffset="280" IsAutoConfig="0" YResolution="5" MaxValue="100" File="..\Src\foc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
